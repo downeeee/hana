@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+#wrap{}
+
+#header{height: 113px;/* ;background-color: blanchedalmond; */
+        position: absolute;width: 100%;}
+
+#header:hover{background-color: rgb(255, 255, 255);}
+
+#header:hover .logo a{ background-position:center bottom ; }
+
+.head_inner{width: 1200px; margin: 0 auto; /* background-color: chocolate; */}
+
+.head_top_menu{height: 48px;/*  background-color: darkorange; */ }
+
+.head_top_menu ul{text-align: right;}
+
+.head_top_menu ul li{display: inline-block;}
+
+.head_top_menu ul li a{display: block;line-height: 48px; padding: 0 15px; color:  white;
+                        font-size: 12px; color: rgba(5, 5, 5, 0);}
+                        
+#header:hover .head_top_menu a{color: rgb(78, 78, 78);}
+
+
+.gnb{ height: 65px; /* background-color: rgb(90, 90, 90); */}
+
+#header:hover .gnb a{color: rgb(38, 38, 38);}
+
+.logo{float: left;padding: 10px 0;}
+
+.logo a{height:45px ; display: block; width: 112px; background: url(../img/ico-zeus-logo.png) no-repeat
+; background-position:center top ; text-indent: -9999px; }
+
+.nav{float: right; color: white;}
+
+.nav ul{}
+
+.nav ul li{display: inline-block; margin-left: 20px;}
+
+.nav ul li a{display: block; line-height: 65px; padding: 0 10px; font-weight: bold; font-size: 17px;
+    color: rgba(5, 5, 5, 0);}
+
+
+/* container영역 */
+
+#container{width: 1920px;margin: 0 auto;}
+
+/* img_slide영역 */
+
+.img_slide{height: 710px;}
+
+
+/* classic 영역 */
+
+.classic{padding-top: 80px; overflow: hidden; background: linear-gradient(white 0%,#fff 70%,
+        #eee 70%, #eee 100%);}
+
+.classic special{background: linear-gradient(white 0%,#fff 70%,
+    #eee 70%, #eee 100%);}
+
+.classic h2{font-size: 25px; font-family: Arial, Helvetica, sans-serif; text-align: center; font-weight: bold;}
+
+.classic_list{text-align: center;}
+
+.classic_list li{display: inline-block;margin: 30px 10px;}
+
+.classic_list li a{display: block; padding: 10px 0px; border-bottom:2px solid white;}
+
+.classic_list li a:hover{border-bottom: 2px solid rgb(0, 0, 0); /* font-weight: bold; */}
+
+.classic_wrap{width: 1200px; margin: 50px auto;}
+
+.classic_wrap ul{}
+
+.classic_wrap ul li{float: left; width: 384px; height: 520px; background-repeat: no-repeat;
+                    background-position: center center; background-size: cover;overflow: hidden;} 
+
+.c_wrap_01{background-image: url(../img/clasic01.jpg);}
+.c_wrap_02{margin: 0 24px; background-image: url(../img/clasic02.jpg);}
+.c_wrap_03{background-image: url(../img/clasic03.jpg);}
+
+.classic_wrap ul li a{display: block; width: 100%; height: 100%; position: relative;}
+
+.classic_wrap ul li a .top{width: 61px; height: 70px; background-color: rgb(28, 28, 28); 
+                            color: white; text-align: center;font-size: 30px;padding: 10px; margin-left: 50px;}
+
+.classic_wrap ul li a .top span{ font-size: 12px;display: block; text-transform: uppercase;}
+
+.classic_wrap ul li a .c_txt{width: 345px;height: 246px; background-color:transparent; padding: 25px 20px;
+                            color: white; position: absolute; left: 50%; top: 400px; transform: translateX(-50%);
+                            transition: all 0.5s;}
+
+                .classic_wrap ul li a:hover .c_txt{ top: 274px; background-color: rgba(255, 255, 255, 0.8); }
+
+
+.classic_wrap ul li a .c_txt h3{font-size: 20px; line-height: 2; margin-bottom: 15px; text-align: center;}
+
+                .classic_wrap ul li a:hover .c_txt h3{color: #333;}
+.classic_wrap ul li a .c_txt p{line-height: 1.7;}
+                .classic_wrap ul li a:hover .c_txt p{color: #666;}
+.classic_wrap ul li a .c_txt p.price{margin-bottom: 20px; font-size: 20px; font-weight: bold; position: absolute; bottom: 0px;
+                                    left: 15px;}
+                .classic_wrap ul li a:hover .c_txt p.price{color: rgb(208, 0, 0);}
+.classic_wrap ul li a .c_txt p.price span{font-size: 12px;}
+                .classic_wrap ul li a:hover .c_txt p.price span{color: #333;}
+
+.s_wrap_01{background-image: url(../img/spe01.jpg);}
+.s_wrap_02{background-image: url(../img/spe02.jpg); margin: 0 24px;}
+.s_wrap_03{background-image: url(../img/spe01.jpg);}
+
+
+/* 공지사항영역 */
+
+.notice{width: 100%; padding: 50px 0 ; overflow: hidden;}
+
+.notice ul{width: 1200px; margin: 0 auto;}
+
+.notice ul li{float: left; width: calc(100% / 4); text-align: center;
+                border-right: 1px dotted gray;}
+
+.notice ul li a{display: block; margin-bottom: 10px;}
+
+.notice ul li p{line-height: 1.5;}
+
+.notice ul li:last-child{border-right: none !important;}
+
+
+.notice ul li span{display: block; width: 32px; height: 34px; margin: 5px auto;
+                    background-image: url(../img/spr_icn.png); 
+                    background-position: -204px -253px; text-indent: -9999px;}
+
+.notice ul li span.n_2{background-position:-235px -253px ;}
+.notice ul li span.n_3{background-position:-270px -253px ;}
+.notice ul li span.n_4{background-position:-300px -253px ;}
